@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TESTE CHATBOT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+.chatbot img {
+
+}
+
+.chatbot {
+
+	color: white;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	width: 350px;
+
+	z-index: 0;
+}
+
+.icon_help {
+	background-image: url("baseline-live_help-24px.svg");
+}
+
+.principal {
+
+	z-index: -1;
+}
+body {
+		background-color: #d9dbcb;
+}
+
+la
+
+.switch input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<div class="principal">
+	<h1>TESTE CHATBOT</h1>
+	<h5>Botão suspenso do lado direito da tela</h5>
+
+</div>
+<div class="chatbot">
+	<div id="pergunta_ajuda">
+		<input type="image" src="icone-ajuda.png" data-toggle="collapse" data-target="#bot">
+	</div>
+	<div id="bot" class="collapse">
+		<iframe
+			allow="microphone;"
+			width="350"
+			height="430"
+			src="https://console.dialogflow.com/api-client/demo/embedded/361e6a93-98a6-4245-872f-9c33a4cff55d">
+	</iframe>
+	</div>
+
+
+</div>
+
+</body>
+
+</html>
